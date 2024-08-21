@@ -1,0 +1,16 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform directories
+.terraform/
+
+# Utility directories
+utils/
+
+# Ignore any sensitive or generated config files
+config.yaml
+config_template.yaml.tmpl
