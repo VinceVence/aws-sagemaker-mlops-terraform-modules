@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "sagemaker_endpoint_name" {
   description = "The name of the existing SageMaker endpoint"
   type        = string
-  default     = "xgb-car-pricing-endpoint-lab-2024-08-18-14-44-41"
+  default     = ""
 }
 
 
